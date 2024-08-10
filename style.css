@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 15rem;
+    align-items: center;
+}
+
+.game_space {
+    margin-top: 1rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gamecanvas {
+    border: 3px solid #000;
+}
+
+.info-panel {
+    margin-left: 20px;
+}
+
+.score-board {
+    margin-top: 20px;
+    background-color: rgb(238, 238, 238);
+    width: 20rem;
+    height: 6rem;
+    align-items: flex-start;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: left;
+}
+
+button {
+    margin-top: 20px;
+}
